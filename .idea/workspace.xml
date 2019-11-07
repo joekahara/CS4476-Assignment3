@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1fd21a2d-fc31-46b3-bd5a-5348a7a826bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS4476-Assignment3/HashingKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4476-Assignment3/HashingKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hashing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hashing.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +35,12 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -98,7 +105,8 @@
       <workItem from="1572639953176" duration="4008000" />
       <workItem from="1572749907793" duration="93000" />
       <workItem from="1572896199616" duration="89000" />
-      <workItem from="1572896372420" duration="10012000" />
+      <workItem from="1572896372420" duration="15455000" />
+      <workItem from="1573077147460" duration="7847000" />
     </task>
     <servers />
   </component>
@@ -119,15 +127,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/Hashing.kt</url>
-          <line>7</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
         <watch expression="((java.util.ArrayList)matrices).get(0)" custom="java.util.ArrayList" />
