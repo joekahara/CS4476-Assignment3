@@ -106,7 +106,7 @@
       <workItem from="1572749907793" duration="93000" />
       <workItem from="1572896199616" duration="89000" />
       <workItem from="1572896372420" duration="15455000" />
-      <workItem from="1573077147460" duration="7847000" />
+      <workItem from="1573077147460" duration="17562000" />
     </task>
     <servers />
   </component>
@@ -127,6 +127,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Hashing.kt</url>
+          <line>47</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
         <watch expression="((java.util.ArrayList)matrices).get(0)" custom="java.util.ArrayList" />
