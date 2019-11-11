@@ -62,9 +62,10 @@ fun birthdayAttack(numOfVariations: Int): String {
 
 fun main() {
     val plaintext = "the birthday attack can be performed for any hash functions including sha three"
+    println("Plaintext: [$plaintext]")
     val result = hash(plaintext)
-    println("Hash output: $result")
+    println("Hash output: [$result]")
     val macResult = mac(plaintext, "abcde")
-    println("MAC output: $macResult")
+    println("MAC output: [$macResult]")
     println(birthdayAttack(2500))
 }

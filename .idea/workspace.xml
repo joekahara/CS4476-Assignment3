@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fd21a2d-fc31-46b3-bd5a-5348a7a826bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS4476-Assignment3/HashingKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS4476-Assignment3/HashingKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hashing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hashing.kt" afterDir="false" />
-    </list>
+    <list default="true" id="1fd21a2d-fc31-46b3-bd5a-5348a7a826bc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +103,7 @@
       <workItem from="1572896199616" duration="89000" />
       <workItem from="1572896372420" duration="15455000" />
       <workItem from="1573077147460" duration="17735000" />
-      <workItem from="1573450815937" duration="2868000" />
+      <workItem from="1573450815937" duration="3182000" />
     </task>
     <servers />
   </component>
