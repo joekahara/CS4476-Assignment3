@@ -46,18 +46,12 @@ fun birthdayAttack(numOfVariations: Int): String {
     val testsAndResults = mutableMapOf<String,String>() // create empty mutable map to store hash inputs and outputs
 
     for (i in 0..numOfVariations) { // hash 'numOfVariations' random strings of 50 characters, store the input and output
-        val randomString = List(50) { letters[Random.nextInt(0, letters.length)] }.joinToString("")
+        val randomString = List(20) { letters[Random.nextInt(0, letters.length)] }.joinToString("")
         testsAndResults[randomString] = hash(randomString)
     }
 
-    for (i in 0..numOfVariations) { // hash 'numOfVariations' random strings, compare each with previous variations to find collisions
-        val randomString = List(50) { letters[Random.nextInt(0, letters.length)] }.joinToString("")
-        val randomHash = hash(randomString)
-        if (testsAndResults.values.any { it == randomHash }) // if any collisions, return results as string
-            return "Collision found with inputs [$randomString], ${testsAndResults.filterValues { it == randomHash }.keys} and output [$randomHash] using birthday attack. "
-    }
-
-    return "Birthday attack was unsuccessful with $numOfVariations variations used. " // if no collisions for all variations, return appropriate string
+    val duplicateHashes = testsAndResults.values.groupingBy { it }.eachCount().filter { it.value > 1 } // check for and store duplicate hashes in the original map
+    return testsAndResults.filterValues{ duplicateHashes.containsKey(it) }.toString() // return only the duplicate hashes and their inputs from the original map
 }
 
 fun main() {
@@ -67,5 +61,5 @@ fun main() {
     println("Hash output: [$result]")
     val macResult = mac(plaintext, "abcde")
     println("MAC output: [$macResult]")
-    println(birthdayAttack(2500))
+    println("Map of collisions found with 5000 variations {input=hash}: ${birthdayAttack(5000)}")
 }
